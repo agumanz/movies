@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#username1,
+#password1{
+    background-color: white;
+    color: black;
+    padding: 8px 78px;
+    font-size: 16px;
+    border-radius: 20px;
+
+}
+
+#image{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#login-button{
+    color: white;
+    background-color: rgb(236, 206, 51);
+    padding: 8px 150px;
+    font-size: 18px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 20px;
+}
+
+#ps{
+    font-size: 15px;
+    color: white;
+}
+
+.swal2-confirm{
+    color: black !important; 
+}
+
+.text-cente d-flex {
+    color: white; 
+    font-size: 15px; 
+}
+
+.register-link {
+    margin-left: 5px;
+}
