@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif; 
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: white;
+  color: black;
+  border-radius: 20px; 
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  margin-bottom: 20px;  
+  width: 30%;  
+  padding: 10px;  
+}
+
+button[type="submit"] {
+  background-color: rgb(236, 206, 51); 
+  text-align: center; 
+  color: black;
+  border-radius: 20px; 
+  font-family: 'Roboto', sans-serif; 
+  padding: 10px 20px;  
+  border: none;  
+  width: 30%;  
+  cursor: pointer;  
+  margin-bottom: 10px;
+}
+
+#label {
+  display: block;
+  margin-bottom: 20px; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+#securityQuestion{
+  background-color: white;
+  color: black;
+  padding: 10px 45px 10px;
+  font-size: 16px;
+  border-radius: 25px;
+  margin: 0px 0px 38px;
+  text-align: center;
+}
+
+#mo{
+  width: 400px;
+  height: 200px;
+  margin-bottom: 20px; 
+}
+
+.login-link {
+  color: #ffffff; 
+
+}

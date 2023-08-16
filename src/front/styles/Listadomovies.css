@@ -1,0 +1,49 @@
+.card-container {
+    position: relative;
+    font-family: 'Roboto', sans-serif; 
+    border: 0;
+    box-shadow: none;
+  }
+
+  .star-ranking {
+	position: absolute;
+	bottom: 5px;
+	/* left: 10px; */
+	z-index: 1;
+	color: white; 
+  background-color: rgba(192, 192, 192, 0.7); 
+  font-size: 18px;
+  padding: 7px;
+  border-top-right-radius: 5px; 
+  border-bottom-right-radius: 5px;
+}
+
+  .star-icon {
+	color: rgb(236, 206, 51);
+	background-color: rgba(192, 192, 192, 0.5); 
+  }
+  
+
+  .ranking {
+    display: inline;
+	margin-left: 5px;
+    background-color: transparent; 
+	color: white; 
+
+  }
+
+  .col-md-2 a {
+    text-decoration: none;
+    color: inherit;
+    
+  }
+
+  .card-img-top {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 300px; /* Puedes ajustar este valor según tus necesidades */
+    object-fit: cover; /* Mantendrá la proporción de la imagen sin distorsionarla */
+  }
+
+  .to-watch {
+    margin-top: 50px; 
+  }
